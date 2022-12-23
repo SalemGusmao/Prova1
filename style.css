@@ -1,0 +1,89 @@
+*{
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 10vh;
+   background-image: url("fundoroxo.jpg");
+   border-radius: 3%;
+}
+
+a{    
+    color: beige;
+    font-size: 20px;
+    font-family: Verdana;
+}
+header img{
+    width: 20ex;
+}
+ul{
+    display: flex;
+}
+li:hover{
+    background-color: #F8A000;   
+}
+li{
+    margin: 5px;
+    padding: 3vh;
+    list-style-type: none;
+    border-radius: 2vh;    
+}
+body{
+    height: 100vh;
+    width: 80vw;
+    background-color: #C01DFA;
+    
+}
+main{
+    height: 70vh;
+    width: 80vw;
+    margin: 1em auto; 
+}
+h1{
+    color: #075815;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.container{
+    background-color: #730D4F;
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: rap;
+    margin: 1rem auto;
+    border-radius: 8%;
+
+    
+}
+
+
+.direita{
+    width: 50%;
+    height: 100%;
+    border-radius: 8%
+   
+    
+   
+}
+.esquerda{
+    width: 50%;
+    height: 100%;
+    border-radius: 8%
+   
+    
+}
+img{
+    border-radius: 8%
+    
+}

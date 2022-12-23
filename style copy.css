@@ -1,0 +1,70 @@
+*{
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 10vh;
+   background-image: url("fundoroxo.jpg");
+   border-radius: 3%;
+}
+
+a{    
+    color: beige;
+    font-size: 20px;
+    font-family: Verdana;
+}
+header img{
+    width: 20ex;
+    border-radius: 15%;
+}
+ul{
+    display: flex;
+}
+li:hover{
+    background-color: #F8A000;
+   
+}
+li{
+    margin: 5px;
+    padding: 3vh;
+    list-style-type: none;
+    border-radius: 2vh;
+    
+}
+body{
+    background-color: #730D4F;
+    /*#3C7C86 #2B263C cores verde roxo que quero*/
+}
+table{
+    border: 1px solid yellow);
+    margin: auto;
+    font-family: 'Courier New';
+    color: aqua;
+
+}
+h4{
+    color: beige;
+}
+h5{
+    color: #F8A000;
+}
+
+.icone{
+    border: 1px solid black;
+    height: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.ml{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
